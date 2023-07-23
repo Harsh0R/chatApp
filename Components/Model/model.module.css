@@ -1,0 +1,93 @@
+.Model{
+    width: 85%;
+    margin: 1rem auto;
+}
+
+.Model_Box{
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    align-items: center;
+}
+
+
+.Model_Box_right h1{
+    font-size: 3rem;
+    color: aqua;
+    line-height: .9;
+}
+
+.Model_Box_right h1 samp{ 
+    display: block;
+    font-size: 5rem;
+}
+
+.Model_Box_right small{ 
+    color: aqua;
+    font-size: 1.2rem;
+}
+
+.Model_Box_right_name_info{
+    display: flex;
+    align-items: center;
+    margin-block: 1rem;
+    gap:1rem;
+    background-color: rgb(0, 0, 0,0.25);
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.Model_Box_right_name_info input{
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid rgba(87, 224, 255, 0.698);
+    padding: 5px;
+    outline: none;
+    color: aqua;
+}
+
+.Model_Box_right_name_btn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.Model_Box_right_name_btn button{
+    border: none;
+    outline: none;
+    color: aqua;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: rgba(23, 131, 226, 0.225);
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 50em) {
+    .Model{
+        width: 95%;
+    }
+    .Model_Box{
+        grid-template-columns: 1fr;
+    }
+    .Model_Box_right h1{
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    .Model_Box_right h1 span{
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    .Model_Box_right_name_btn{
+        display: grid;
+        grid-template-columns: 1fr;
+        z-index: 11111111;
+
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "mychatapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.17.0",
+    "json-loader": "^0.5.7",
+    "next": "13.4.10",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "web3": "^4.0.3",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "ethers": "^5.7.2"
+  }
+}

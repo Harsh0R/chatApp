@@ -1,0 +1,34 @@
+.Card{
+
+}
+
+.Card_box{
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid aqua;
+    cursor: pointer;
+}
+
+.Card_box_left{
+    border-radius: 50%;
+}
+
+.Card_box_left_img{
+
+}
+
+.Card_box_right{
+    display: grid;
+    gap: 2rem;
+}
+
+.Card_box_right_middle{
+    margin-top: -1.2rem;
+}
+
+.Card_box_right_end{
+
+}
