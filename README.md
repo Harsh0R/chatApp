@@ -2,10 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the Hardhat:
+First, run the Hardhat :
 npx hardhat node
 
-for get address of smart contract and artifacts file.
+for get address of smart contract and artifacts file :
 npx hardhat run scripts/deploy.js --network localhost
 
 then run server :
